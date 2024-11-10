@@ -4,7 +4,6 @@ DerivedDataCache/
 Saved/
 .vs/
 
-
 # Build files to Ignore
 *.VC.db
 *.VC.opendb
@@ -27,7 +26,11 @@ Saved/
 # Source/ChronoScape/ChronoScape.generated.cpp
 # Source/ChronoScape/ChronoScape.generated.h
 
-Intermediate/
+# Specifically allow ProjectFiles in Intermediate
+!Intermediate/ProjectFiles/
+
+# Ignore everything else in Intermediate
+Intermediate/*
 !Intermediate/ProjectFiles/*.cpp
 !Intermediate/ProjectFiles/*.h
 
@@ -49,7 +52,6 @@ Config/DefaultEngine.ini
 Content/    
 !Content/Blueprints/
 !Content/Maps/
-
 
 # Ignore specific build configuration files
 .vscode/
