@@ -3,6 +3,7 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+.vs/
 !Intermediate/ProjectFiles/*.cpp
 !Intermediate/ProjectFiles/*.h
 
