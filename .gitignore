@@ -25,8 +25,11 @@ Saved/
 *.log
 
 # Ignore generated code files but keep custom code
-Source/ChronoScape/ChronoScape.generated.cpp
-Source/ChronoScape/ChronoScape.generated.h
+# Source/ChronoScape/ChronoScape.generated.cpp
+# Source/ChronoScape/ChronoScape.generated.h
+
+!Intermediate/ProjectFiles/*.cpp
+!Intermediate/ProjectFiles/*.h
 
 # Only keep source code and configuration files
 !Source/
