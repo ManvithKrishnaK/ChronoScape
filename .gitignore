@@ -1,7 +1,6 @@
 # Unreal Engine Directories to Ignore
 Binaries/
 DerivedDataCache/
-Intermediate/
 Saved/
 .vs/
 
@@ -28,6 +27,7 @@ Saved/
 # Source/ChronoScape/ChronoScape.generated.cpp
 # Source/ChronoScape/ChronoScape.generated.h
 
+Intermediate/
 !Intermediate/ProjectFiles/*.cpp
 !Intermediate/ProjectFiles/*.h
 
