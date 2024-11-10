@@ -4,8 +4,7 @@ DerivedDataCache/
 Intermediate/
 Saved/
 .vs/
-!Intermediate/ProjectFiles/*.cpp
-!Intermediate/ProjectFiles/*.h
+
 
 # Build files to Ignore
 *.VC.db
@@ -59,4 +58,6 @@ Content/
 .DS_Store
 Thumbs.db
 
+!*.cpp
+!*.h
 !.gitignore
