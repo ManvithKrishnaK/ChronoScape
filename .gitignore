@@ -20,17 +20,10 @@ Saved/
 *.tmp
 *.bak
 *.cache
-*.log
 
-# Ignore generated code files but keep custom code
-# Source/ChronoScape/ChronoScape.generated.cpp
-# Source/ChronoScape/ChronoScape.generated.h
-
-# Specifically allow ProjectFiles in Intermediate
-!Intermediate/ProjectFiles/
-
-# Ignore everything else in Intermediate
+# Ignore everything in Intermediate except ProjectFiles
 Intermediate/*
+!Intermediate/ProjectFiles/
 !Intermediate/ProjectFiles/*.cpp
 !Intermediate/ProjectFiles/*.h
 
@@ -39,7 +32,7 @@ Intermediate/*
 !Source/ChronoScape/*.cpp
 !Source/ChronoScape/*.h
 
-# Include Configuration files
+# Include specific configuration files
 !Config/
 Config/DefaultEditor.ini
 Config/DefaultGame.ini
@@ -47,9 +40,7 @@ Config/DefaultEngine.ini
 
 # Content folder – keep assets if you want them visible; ignore if you want a purely code-focused repo
 !Content/
-
-# Ignore the whole Content folder
-Content/    
+Content/
 !Content/Blueprints/
 !Content/Maps/
 
@@ -63,6 +54,7 @@ Content/
 .DS_Store
 Thumbs.db
 
+# Keep source code files and .gitignore tracked
 !*.cpp
 !*.h
 !.gitignore
