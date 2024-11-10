@@ -3,7 +3,8 @@ Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
-!Intermediate/ProjectFiles/
+!Intermediate/ProjectFiles/*.cpp
+!Intermediate/ProjectFiles/*.h
 
 # Build files to Ignore
 *.VC.db
